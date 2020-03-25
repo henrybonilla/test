@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Backup Techonologies</title>
+	<!-- link del archivo css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- link de tipo de letras googlefont -->
+	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+	<h1 id="logo"> BACKUP TECHNOLOGIES  </h1>
+	<nav>
+		<button class="btn-menu" onclick="accion()">Menu</button>
+		<a href="index.html" class="barra-menu desaparecer">Inicio </a>
+		<a href="nosotros.html" class="barra-menu desaparecer">Nosotros </a>
+		<a href="servicios.html" class="barra-menu desaparecer">Servicios </a>
+		<a href="productos.html" class="barra-menu desaparecer">Productos</a>
+		<a href="contactos.html" class="barra-menu desaparecer">Contactos</a>
+	</nav>
+
+
+		
+			
+			<section class="contenedor-flex text-center">
+				<div class="columna">
+					<h2>DISEÑO WEB</h2>
+					<p class="precio"> 500$</p>
+				<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+				<hr>
+				<p >Lorem ipsum dolor sit amet</p>
+				<p> vero ratione quo provident, libero vitae.</p>
+				<p> provident, libero vitae.</p>
+				<hr>
+				<a href="#" class="btn-comprar">COMPRAR</a>
+				</div>
+
+				<div class="columna">
+					<h2>MARKETING DIGITAL</h2>
+					<p class="precio">300$</p>
+				<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+				<hr>
+				<p >Lorem ipsum dolor sit amet</p>
+				<p> vero ratione quo provident, libero vitae.</p>
+				<p> provident, libero vitae.</p>
+				<hr>
+				<a href="#" class="btn-comprar">COMPRAR</a>
+				</div>
+
+				<div class="columna">
+					<h2>SOPORTE PC</h2>
+					<p class="precio"> 30$</p>
+				<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+				<hr>
+				<p >Lorem ipsum dolor sit amet</p>
+				<p> vero ratione quo provident, libero vitae.</p>
+				<p> provident, libero vitae.</p>
+				<hr>
+				<a href="#" class="btn-comprar">COMPRAR</a>
+				</div>
+
+				<div class="columna">
+					<h2>CLOUD COMPUTING</h2>
+					<p class="precio">1.000$</p>
+				<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+				<hr>
+				<p >Lorem ipsum dolor sit amet</p>
+				<p> vero ratione quo provident, libero vitae.</p>
+				<p> provident, libero vitae.</p>
+				<hr>
+				<a href="#" class="btn-comprar">COMPRAR</a>
+				</div>
+			</section>
+		</div>
+
+	
+	<div class="footer">
+		<center><b>Copyright @Backup System & Technologies</b> <br> 
+		Henry Bonilla </center>
+	</div>
+	
+
+	<script type="text/javascript">
+		function accion(){
+			var poner = document.getElementsByClassName('barra-menu');
+			for (var i =0;  i < poner.length; i++) {
+				poner[i].classList.toggle('desaparecer');
+			}
+		}
+	</script>
+</body>
+</html>
